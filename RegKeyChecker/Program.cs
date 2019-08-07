@@ -83,6 +83,9 @@ namespace RegKeyChecker
             {
                 ReportException(exc);
             }
+
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
         }
 
         static void ReportException(Exception exc)
